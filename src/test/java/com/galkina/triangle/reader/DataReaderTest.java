@@ -3,8 +3,6 @@ package com.galkina.triangle.reader;
 import org.junit.Test;
 
 
-import java.nio.file.NoSuchFileException;
-
 /**
  * Created by Yulia on 07.12.2016.
  */
