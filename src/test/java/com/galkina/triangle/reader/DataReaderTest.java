@@ -1,15 +1,22 @@
 package com.galkina.triangle.reader;
 
+import junit.framework.Assert;
 import org.junit.Test;
+import java.util.ArrayList;
+import java.util.List;
 
 
-/**
- * Created by Yulia on 07.12.2016.
- */
 public class DataReaderTest {
-    @Test(expected = NullPointerException.class)
-    public void checkFileExisting(){
-        DataReader reader = new DataReader();
-        reader.readData("text.txt");
+
+    @Test
+    public void testFileReading(){
+        String rightPath = "src/main/resources/data.txt";
+        List<String> actual = DataReader.readData(rightPath);
+        List<String> expected = new ArrayList<String>();
+        expected.add("-6,3");
+        expected.add("45 5");
+        expected.add("1 0 4");
+        expected.add("5 5");
+        Assert.assertEquals(expected,actual);
     }
 }

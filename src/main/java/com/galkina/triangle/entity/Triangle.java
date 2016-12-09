@@ -1,8 +1,5 @@
 package com.galkina.triangle.entity;
 
-/**
- * Created by Yulia on 05.12.2016.
- */
 public class Triangle {
 
     private Point a, b, c;
@@ -34,7 +31,6 @@ public class Triangle {
     public Point getA() {
         return a;
     }
-
     public void setA(Point a) {
         this.a = a;
     }
@@ -42,7 +38,6 @@ public class Triangle {
     public Point getB() {
         return b;
     }
-
     public void setB(Point b) {
         this.b = b;
     }
@@ -50,7 +45,6 @@ public class Triangle {
     public Point getC() {
         return c;
     }
-
     public void setC(Point c) {
         this.c = c;
     }
@@ -65,6 +59,25 @@ public class Triangle {
 
     public double getAc() {
         return ac;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Triangle)) return false;
+
+        Triangle triangle = (Triangle) o;
+
+        return a.equals(triangle.a) && b.equals(triangle.b) && c.equals(triangle.c);
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = a.hashCode();
+        result = 31 * result + b.hashCode();
+        result = 31 * result + c.hashCode();
+        return result;
     }
 
     @Override

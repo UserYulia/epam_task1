@@ -1,29 +1,29 @@
 package com.galkina.triangle.entity;
 
-
 import junit.framework.Assert;
-import org.junit.After;
-import org.junit.Before;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 
 public class TriangleTest {
-
     private static Triangle triangle;
-    @Before
-    public void init(){
-        triangle = new Triangle(new Point(0, 3), new Point(4, 0), new Point(0,0));
+
+    @BeforeClass
+    public static void init(){
+        triangle = new Triangle(new Point(0,3),new Point(4,0), new Point(0,0));
     }
-    @After
-    public void destroy(){
+    @AfterClass
+    public static void destroy(){
         triangle = null;
     }
+
     @Test
     public void testPerimeterCalculating(){
         Assert.assertEquals(12.0,triangle.calcPerimeter());
     }
     @Test
-    public void testSquareCalculating(){
+    public void testAreaCalculating(){
         Assert.assertEquals(6.0,triangle.calcArea());
     }
 

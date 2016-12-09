@@ -14,16 +14,8 @@ public class Point {
         return x;
     }
 
-    public void setX(int x) {
-        this.x = x;
-    }
-
     public int getY() {
         return y;
-    }
-
-    public void setY(int y) {
-        this.y = y;
     }
 
     @Override
@@ -33,10 +25,8 @@ public class Point {
 
         Point point = (Point) o;
 
-        if (x != point.x) return false;
-        if (y != point.y) return false;
+        return x == point.x && y == point.y;
 
-        return true;
     }
 
     @Override
