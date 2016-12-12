@@ -1,0 +1,11 @@
+2016-12-11 19:58:43 INFO  DataReader:26 - File src/main/resources/data.txt successfully read.
+2016-12-11 19:58:43 INFO  DataReader:26 - File src/main/resources/data.txt successfully read.
+2016-12-11 19:58:43 INFO  DataValidator:22 - Data in sting 4 is invalid.
+2016-12-11 19:58:43 INFO  DataValidator:22 - Data in sting 5 is invalid.
+2016-12-11 19:58:43 INFO  PointsParser:22 - Point added: {x=3, y=3}
+2016-12-11 19:58:43 INFO  PointsParser:22 - Point added: {x=0, y=0}
+2016-12-11 19:58:43 INFO  PointsParser:22 - Point added: {x=0, y=3}
+2016-12-11 19:58:43 INFO  PointsParser:22 - Point added: {x=4, y=5}
+2016-12-11 19:58:43 INFO  TriangleDefinition:36 - Triangle Triangle{a={x=1, y=1}, b={x=2, y=2}, c={x=3, y=3}, perimeter=5,66, area=0,00} don't exist.
+2016-12-11 19:58:43 INFO  TriangleDefinition:30 - Triangle Triangle{a={x=0, y=3}, b={x=4, y=0}, c={x=0, y=0}, perimeter=12,00, area=6,00} is rectangular.
+2016-12-11 19:58:43 INFO  TriangleDefinition:32 - Triangle Triangle{a={x=0, y=2}, b={x=-2, y=0}, c={x=0, y=-3}, perimeter=11,43, area=5,00} isn't rectangular.

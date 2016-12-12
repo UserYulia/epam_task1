@@ -1,42 +1,30 @@
 package com.galkina.triangle.reader;
 
+import com.galkina.triangle.exception.WrongFileNameException;
 import org.apache.log4j.Logger;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
-
 public class DataReader {
+    //private static final String DEFAULT_FILENAME="src/main/resources/data.txt";
 
     public static final Logger LOG = Logger.getLogger(DataReader.class);
 
-    public static List<String> readData(String filename){
-        List<String> list = new ArrayList<String>();
+    public static List<String> readData(String path) throws WrongFileNameException {
+        List<String> data = new ArrayList<>();
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(new File(filename)));
-            while (reader.ready()){
-                list.add(reader.readLine());
-            }
+            Files.lines(Paths.get(path)).forEach(data::add);
+            LOG.info("File "+path+" successfully read.");
         }
         catch (IOException e) {
-            LOG.fatal(e.getMessage());
-            e.printStackTrace();
+            throw new WrongFileNameException("File not found.");
+
         }
 
-        if(!list.isEmpty()){
-            LOG.info("File "+filename+" successfully read.");
-        }
-
-        return list;
-    }
-
-    public static void main(String[] args) {
-        List<String> s = DataReader.readData("ddd");
-        for (String str: s){
-            System.out.println(str);
-        }
+        return Collections.unmodifiableList(data);
     }
 }

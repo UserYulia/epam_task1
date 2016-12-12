@@ -32,7 +32,7 @@ public class TriangleDefinitionTest {
     @Test
     public void checkTriangleTrue(){
         Triangle triangle = new Triangle(new Point(x1,y1),new Point(x2,y2), new Point(x3,y3));
-        Assert.assertTrue(TriangleDefinition.isTriangleExists(triangle) == expResult2);
+        Assert.assertTrue(TriangleDefinition.isTriangleExisting(triangle) == expResult2);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class TriangleDefinitionTest {
     @Parameterized.Parameters
     public static Collection<Object[]> getTestData() {
         return Arrays.asList(new Object[][]{
-                {1,1, 2,2, 3,3, false, false},
+                {1, 1, 2, 2, 3, 3, false, false},
                 {0, 3, 4, 0, 0, 0,true, true},
                 {0, 2, -2, 0, 0, -3, false, true},
         });

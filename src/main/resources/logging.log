@@ -1,0 +1,54 @@
+2016-12-11 19:59:03 INFO  DataReader:26 - File src/main/resources/data.txt successfully read.
+2016-12-11 19:59:03 INFO  DataReader:26 - File src/main/resources/data.txt successfully read.
+2016-12-11 19:59:03 INFO  DataValidator:22 - Data in sting 4 is invalid.
+2016-12-11 19:59:03 INFO  DataValidator:22 - Data in sting 5 is invalid.
+2016-12-11 19:59:03 INFO  PointsParser:22 - Point added: {x=3, y=3}
+2016-12-11 19:59:03 INFO  PointsParser:22 - Point added: {x=0, y=0}
+2016-12-11 19:59:03 INFO  PointsParser:22 - Point added: {x=0, y=3}
+2016-12-11 19:59:03 INFO  PointsParser:22 - Point added: {x=4, y=5}
+2016-12-11 19:59:03 INFO  TriangleDefinition:36 - Triangle Triangle{a={x=1, y=1}, b={x=2, y=2}, c={x=3, y=3}, perimeter=5,66, area=0,00} don't exist.
+2016-12-11 19:59:03 INFO  TriangleDefinition:30 - Triangle Triangle{a={x=0, y=3}, b={x=4, y=0}, c={x=0, y=0}, perimeter=12,00, area=6,00} is rectangular.
+2016-12-11 19:59:03 INFO  TriangleDefinition:32 - Triangle Triangle{a={x=0, y=2}, b={x=-2, y=0}, c={x=0, y=-3}, perimeter=11,43, area=5,00} isn't rectangular.
+2016-12-12 11:34:08 INFO  TriangleListCreator:21 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=1, y=1}, perimeter=7,26, area=0,50} is created. 
+2016-12-12 11:35:07 INFO  TriangleListCreator:21 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:36:57 INFO  TriangleListCreator:21 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:37:05 INFO  TriangleListCreator:21 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:37:49 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:38:18 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:39:04 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:39:35 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:39:35 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:39:50 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:39:50 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:40:31 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:40:31 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:41:01 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:42:16 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:42:34 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:43:04 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 11:43:26 INFO  TriangleListCreator:22 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 12:11:19 INFO  DataReader:21 - File src/main/resources/data.txt successfully read.
+2016-12-12 12:11:19 INFO  DataReader:21 - File src/main/resources/data.txt successfully read.
+2016-12-12 12:11:19 INFO  DataValidator:22 - Data in sting 4 is invalid.
+2016-12-12 12:11:19 INFO  DataValidator:22 - Data in sting 5 is invalid.
+2016-12-12 12:11:19 INFO  PointParser:20 - Point added: {x=3, y=3}
+2016-12-12 12:11:19 INFO  PointParser:20 - Point added: {x=0, y=0}
+2016-12-12 12:11:19 INFO  PointParser:20 - Point added: {x=0, y=3}
+2016-12-12 12:11:19 INFO  PointParser:20 - Point added: {x=4, y=5}
+2016-12-12 12:11:19 INFO  PointParser:24 - No strings to parse.
+2016-12-12 12:11:19 INFO  TriangleListCreator:21 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 12:11:19 INFO  TriangleDefinition:35 - Triangle Triangle{a={x=1, y=1}, b={x=2, y=2}, c={x=3, y=3}, perimeter=5,66, area=0,00} don't exist.
+2016-12-12 12:11:19 INFO  TriangleDefinition:29 - Triangle Triangle{a={x=0, y=3}, b={x=4, y=0}, c={x=0, y=0}, perimeter=12,00, area=6,00} is rectangular.
+2016-12-12 12:11:19 INFO  TriangleDefinition:31 - Triangle Triangle{a={x=0, y=2}, b={x=-2, y=0}, c={x=0, y=-3}, perimeter=11,43, area=5,00} isn't rectangular.
+2016-12-12 12:17:37 INFO  DataReader:21 - File src/main/resources/data.txt successfully read.
+2016-12-12 12:17:37 INFO  DataReader:21 - File src/main/resources/data.txt successfully read.
+2016-12-12 12:17:37 INFO  DataValidator:22 - Data in sting 4 is invalid.
+2016-12-12 12:17:37 INFO  DataValidator:22 - Data in sting 5 is invalid.
+2016-12-12 12:17:37 INFO  PointParser:20 - Point added: {x=3, y=3}
+2016-12-12 12:17:37 INFO  PointParser:20 - Point added: {x=0, y=0}
+2016-12-12 12:17:37 INFO  PointParser:20 - Point added: {x=0, y=3}
+2016-12-12 12:17:37 INFO  PointParser:20 - Point added: {x=4, y=5}
+2016-12-12 12:17:37 INFO  TriangleListCreator:21 - Triangle{a={x=2, y=3}, b={x=0, y=0}, c={x=-10, y=4}, perimeter=26,42, area=19,00} is created. 
+2016-12-12 12:17:37 INFO  TriangleDefinition:35 - Triangle Triangle{a={x=1, y=1}, b={x=2, y=2}, c={x=3, y=3}, perimeter=5,66, area=0,00} don't exist.
+2016-12-12 12:17:37 INFO  TriangleDefinition:29 - Triangle Triangle{a={x=0, y=3}, b={x=4, y=0}, c={x=0, y=0}, perimeter=12,00, area=6,00} is rectangular.
+2016-12-12 12:17:37 INFO  TriangleDefinition:31 - Triangle Triangle{a={x=0, y=2}, b={x=-2, y=0}, c={x=0, y=-3}, perimeter=11,43, area=5,00} isn't rectangular.

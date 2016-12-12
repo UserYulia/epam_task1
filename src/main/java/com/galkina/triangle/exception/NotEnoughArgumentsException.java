@@ -1,8 +1,6 @@
 package com.galkina.triangle.exception;
 
-
 public class NotEnoughArgumentsException extends Exception {
-
     public NotEnoughArgumentsException() {
     }
 
